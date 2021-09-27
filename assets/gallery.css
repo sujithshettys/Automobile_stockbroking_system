@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: black;
+  margin-top: 2em;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  padding: 2em;
+}
+
+img {
+  display: block;
+  max-width: 80%;
+  margin: auto;
+}
+
+.header {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+div a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+a:hover {
+  color: orangered;
+}

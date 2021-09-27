@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 1em 0;
+  text-transform: uppercase;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease-in-out;
+  font-family: arial;
+  font-weight: bold;
+}
+ a:hover{color: orangered;}
+
+
+#gallery {
+   color: white;
+  margin-left: 10em;
+}
+
+table {
+  color: white;
+  margin: auto;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+td,
+th {
+  padding: 1em;
+}
+th {
+  font-size: 1.6em;
+}
+td {
+  font-size: 1.2em;
+}
+
+ #gallery:hover{color: orangered;}
